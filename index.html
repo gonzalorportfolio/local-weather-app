@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Your Local Weather</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz:wght@600&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap" rel="stylesheet">
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <h1>Your local Weather</h1>
+    <div class="container ">
+      
+      <div class="mainInterface">
+        <div class="weather-icon">
+          <img src="http://openweathermap.org/img/wn/10d@2x.png">
+        </div>
+        <div class="tempDegree flex">
+          <div class="temp flex">
+            <span class="degree  textFonts">--</span><br>
+            <span class="fanCel textFonts">-</span>
+          </div>
+          <div class="fanCelToggleButton">
+            <button class="toFar button-29" role="button">F</button>
+            <button class="toCel button-29" role="button">C</button>
+          </div>
+        </div>
+        <br>
+        <div class="textInfo">
+          <div class="location">
+            <p class='textFont'>Weather in<span class="status textFont"></span></p>
+          </div>
+          <div class="">
+            <span class="locationAPI"></span>
+          </div>
+        </div>
+        
+      </div>
+        </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
